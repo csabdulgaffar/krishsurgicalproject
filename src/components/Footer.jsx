@@ -1,7 +1,7 @@
 import map from "../assets/images/map.png"
 function Footer() {
     return (
-        <footer className="bg-gray-800 text-white p-5 ">
+        <footer className="bg-gray-800 text-white p-5 mt-50px">
             <div className="max-w-screen-lg mx-auto px-4 flex justify-between ">
                 <div className="flex flex-col gap-2">
                     <div className="font-serif text-xl py-3 border-b-4 border-pink-600 border-solid  mb-3">Corporate Office</div>
@@ -31,6 +31,7 @@ function Footer() {
                         <div>Twitter</div></div>
 
                 </div>
+
             </div>
         </footer>
     )

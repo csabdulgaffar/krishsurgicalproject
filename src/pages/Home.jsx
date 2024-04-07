@@ -104,7 +104,7 @@ function Home() {
                 </div>
 
             </div>
-            <div className="pt-20 text-center">
+            <div className="pt-20 text-center ">
                 <div className="font-serif text-3xl p-2 bg-pink-500  inline  text-white text-center px-4 " >Send a Quick Enquiry</div>
                 <div className="p-3">Fill the form and we will get back to you</div>
                 <form className=" mx-auto grid grid-cols-1 gap-3 " onSubmit={e => e.preventDefault()}>
