@@ -21,7 +21,7 @@ function Home() {
 
             {/* <div className="bg-cover backdrop-blur-md back-drop-brightness-125 bg-center bg-no-repeat h-auto" style={{ backgroundImage: "url('/src/assets/images/nurses-patients-care-procedures.webp')" }}> */}
             <div
-                className="bg-cover backdrop-blur-md back-drop-brightness-125 bg-center bg-no-repeat h-auto"
+                className="bg-cover backdrop-blur-md back-drop-brightness-125 bg-center bg-no-repeat h-auto "
                 style={{ backgroundImage: `url(${images[currentImageIndex]})`, transition: 'background-image 0.5s ease-in-out' }}
 
             >
@@ -111,21 +111,21 @@ function Home() {
                     <div>
                         <div className="py-3">
                             <label htmlFor="small-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
-                            <input type="text" id="small-input" className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+                            <input type="text" id="small-input" className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg" />
                         </div>
                         <div className="py-3">
                             <label htmlFor="small-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone No:</label>
-                            <input type="number" id="small-input" className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+                            <input type="number" id="small-input" className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg" />
                         </div>
                         <div className="py-3">
                             <label htmlFor="small-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
-                            <input type="email" id="small-input" className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+                            <input type="email" id="small-input" className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg" />
                         </div>
                     </div>
 
                     <div className="mb-5 py-3">
                         <label htmlFor="large-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Comments</label>
-                        <input type="text" id="large-input" className="block wrap w-full h-24 p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+                        <input type="text" id="large-input" className="block wrap w-full h-24 p-4 text-gray-900 border border-gray-300 rounded-lg" />
                     </div>
                     <button className="span bg-pink-500 py-3 mb-10 text-white">submit</button>
 

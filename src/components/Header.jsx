@@ -5,7 +5,7 @@ function Header() {
     return (
         <>
             <header className="bg-white-100 ">
-                <nav className="flex text-medium justify-between max-w-screen-lg mx-auto">
+                <nav className="flex text-medium justify-between max-w-screen-2xl mx-auto border-b-2 border-solid border-gray-300">
                     <div className="font-bold text-4xl">
                         <NavLink activeClassName="active" to="/">
                             <img className="w-40" src={logo} alt="Logo" />
