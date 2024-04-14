@@ -42,10 +42,10 @@ function ContactUs() {
                 </div>
                 <div>
                     <div className="text-center font-medium">Have any query? Write us now!!</div>
-                    <form className=" mx-auto grid grid-cols-1 gap-3 " onSubmit={e => e.preventDefault()}>
+                    <form className=" mx-auto grid grid-cols-1 gap-3" onSubmit={e => e.preventDefault()}>
                         <div>
-                            <div className="py-3">
-                                <label htmlFor="small-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+                            <div className="py-3 ">
+                                <label htmlFor="small-input" className=" mb-2 text-sm font-medium text-gray-900  ">Name</label>
                                 <input type="text" id="small-input" className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg" />
                             </div>
                             <div className="py-3">
