@@ -13,7 +13,7 @@ function Header() {
                             <img className="w-40 transition-all duration-300 hover:scale-95" src={logo} alt="Logo" />
                         </NavLink>
                     </div>
-                    <ul className="flex items-center ">
+                    <ul className="flex items-center  ">
                         <NavLink activeClassName="active" className="p-3 transition-all duration-150 hover:bg-pink-600 hover:text-white" to="/">Home</NavLink>
                         <NavLink activeClassName="active" className="p-3 transition-all duration-150  hover:bg-pink-600 hover:text-white" to="/specialities">Specialities</NavLink>
                         <NavLink activeClassName="active" className="p-3 transition-all duration-150  hover:bg-pink-600 hover:text-white" to="/resource">Resource</NavLink>
