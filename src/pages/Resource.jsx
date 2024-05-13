@@ -14,16 +14,16 @@ import pamplate2 from "../assets/pamplates/pamplate2.png"
 
 function Resource() {
     const paths = [
-        image1, image2, image3, image4
+        image1, image2, image3, image4, image5, image6, image7, image8
     ];
 
     return (
-        <div>
+        <div className="px-5">
             <div className="text-2xl py-3 font-medium">All Instruments</div>
-            <div className="grid grid-cols-2 gap-4 border border-solid border-gray-100 mx-auto text-center">
+            <div className="grid grid-cols-3 gap-4 border border-solid border-gray-100 mx-auto text-center">
                 {paths.map((path, index) => (
-                    <div key={index}>
-                        <img src={path} className="inline-block float-left items-center pr-8 bg-cover" alt="" />
+                    <div key={index} className="flex flex-col ">
+                        <img src={path} className="inline-block float-left items-center pr-8 bg-cover " alt="" />
                         <div >
                             <div className="  bg-gray-500 inline-block text-white p-1 rounded-sm">Instument Name</div>
                         </div>
@@ -39,9 +39,13 @@ function Resource() {
             <div className="text-2xl py-3 font-medium ">Schilling Medisystem</div>
             <div className="grid grid-cols-2 gap-2 max-auto ">
                 <div>
-                    <img src={pamplate} alt="" className="block w-full" /></div>
+                    <img src={pamplate} alt="" className="block w-full" />
+                </div>
+                <div>
+                    <img src={pamplate2} alt="" className="block w-full" />
 
-                <img src={pamplate2} alt="" className="block w-full" />
+                </div>
+
             </div>
         </div>
     );

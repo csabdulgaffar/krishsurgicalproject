@@ -49,6 +49,15 @@ export default {
       height: {
         'fill': '700px'
       }
+
+      ,
+      minHeight: {
+        '80vh': '80vh'
+      },
+      fontFamily: {
+        'verdana': ['Verdana', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+      }
     },
   },
   plugins: [],

@@ -8,7 +8,7 @@ function AppLayout() {
             <AdBar />
 
             <Header />
-            <main className="max-w-screen-lg mx-auto mt-2 px-2">
+            <main >
                 <Outlet />
             </main>
             <Footer />

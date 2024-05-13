@@ -2,7 +2,7 @@ import certificate1 from "../assets/certificates/certificateOfReg.png"
 import certificate2 from "../assets/certificates/certificateOfCompliance.png"
 function AboutUs() {
     return (
-        <>
+        <div className="px-8">
             <div className="  text-2xl font-medium py-2  border-b-4 border-pink-600 border-solid  mb-3 inline-block">
                 About Us
             </div>
@@ -31,7 +31,7 @@ function AboutUs() {
 
             </div >
 
-        </>
+        </div>
 
     )
 }

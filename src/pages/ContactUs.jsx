@@ -1,7 +1,7 @@
 import map from "../assets/images/map.png"
 function ContactUs() {
     return (
-        <>
+        <div className="px-5">
             <div className="text-center font-medium text-2xl"> Contact us</div>
             <div className="py-3  text-justify">Get in touch with Krish Surgicals, your trusted medical equipment supplier located in Kirti Nagar, Delhi. Whether you have inquiries about our products, need assistance with an order, or want to explore partnership opportunities, our team is here to assist you. Contact us today for expert guidance and personalized service.</div>
             <div className="grid grid-cols-2">
@@ -71,7 +71,7 @@ function ContactUs() {
             </div>
 
 
-        </>
+        </div>
 
     )
 }

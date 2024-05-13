@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom"
 import SpecialitiesNavbar from "./SpecialitiesNavbar"
 function Specialities() {
     return (
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-4 gap-5 px-5">
             <div className="flex flex-col">
                 <SpecialitiesNavbar />
             </div>
